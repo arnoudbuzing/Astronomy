@@ -1,0 +1,255 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      9514,        245]
+NotebookOptionsPosition[      7025,        190]
+NotebookOutlinePosition[      8658,        230]
+CellTagsIndexPosition[      8615,        227]
+WindowTitle->Astronomy
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "WOLFRAM EXTERNAL FUNCTIONS/ ASTRONOMY GUIDE", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "80251429-8d19-48f9-a7c1-b5c66ace0ec1"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "970f20f6-a390-43cb-b16f-7d20dc531e8c"],
+        Background->RGBColor[0.85098, 0.396078, 0],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Functions",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "f8f6834e-db79-44e4-a17b-1eb685d91557"]
+         }],ExpressionUUID->"b1d67c7f-ab0b-4129-a444-4ecaa0adc986"],
+         StripOnInput->False],{
+        "\"SkyView\"" :> 
+         Documentation`HelpLookup[
+          "paclet:WolframExternalFunctions/Astronomy/ref/SkyView"], 
+         "\"SkyViewSurveys\"" :> 
+         Documentation`HelpLookup[
+          "paclet:WolframExternalFunctions/Astronomy/ref/SkyViewSurveys"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"GuideFunction"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "683ec61a-82b5-4671-a5ba-5782de4f22dc"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "7a3528a2-98ee-4196-9274-3231dcc79651"]
+         }],ExpressionUUID->"9bcce5af-03b2-470b-b0e1-88865467e217"],
+         StripOnInput->False],{
+        "\"WolframExternalFunctions/Astronomy/guide/Astronomy\"" :> None, 
+         "\"Copy Wolfram Documentation Center URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell["WolframExternalFunctions/Astronomy/guide/Astronomy"]}, 
+               Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
+         "\"Copy web URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell[BoxData[
+                 MakeBoxes[
+                  Hyperlink[
+                   "http://reference.wolfram.com/language/\
+WolframExternalFunctions/Astronomy/guide/Astronomy.html"], StandardForm]], 
+                 "Input", TextClipboardType -> "PlainText"]}, Visible -> 
+               False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+         "\"Go to web URL\"" :> 
+         FrontEndExecute[{
+           NotebookLocate[{
+             URL[If[TrueQ[False], 
+                 "http://reference.wolfram.com/system-modeler/", 
+                 "http://reference.wolfram.com/language/"] <> 
+               "WolframExternalFunctions/Astronomy/guide/Astronomy" <> 
+               ".html"], None}]}]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "a18e09f5-046a-489c-a99d-aa53aa2f1443"]
+    }], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "fcdf844d-e699-43d1-95aa-76c77423cb13"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"ed97757f-1307-4081-9332-6252523b7d9b"],
+
+Cell[CellGroupData[{
+
+Cell["Astronomy", "GuideTitle",
+ CellID->1096680877,ExpressionUUID->"264e30e3-3911-4826-bddd-ac24f22cdbea"],
+
+Cell["Wolfram Language functions for Astronomy", "GuideAbstract",
+ CellID->63357538,ExpressionUUID->"cbb7f62a-3b34-40f8-b929-820661fffabd"],
+
+Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"96f39e0a-b217-4e94-bfcf-d0999cba7bc7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Astronomy Services", "GuideFunctionsSection",
+ CellID->1845735901,ExpressionUUID->"463b9034-f352-4048-a57a-c8d39147eaf5"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["SkyView"]], 
+    "paclet:WolframExternalFunctions/Astronomy/ref/SkyView", 
+    "WolframExternalFunctions Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"c40ac8e4-27e1-4161-a8df-4d4f38357a23",ExpressionUUID->
+  "9b8bcce0-13cc-486c-a92b-cb8c18ecbc5a"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " get a SkyView image"
+}], "GuideText",
+ CellID->47466336,ExpressionUUID->"430af381-4622-4dd2-b8cb-6c4f77779d3e"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["SkyViewSurveys"]], 
+    "paclet:WolframExternalFunctions/Astronomy/ref/SkyViewSurveys", 
+    "WolframExternalFunctions Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"c5c6736a-1ff4-4e4e-8fcf-2d9846cbae62",ExpressionUUID->
+  "0239c828-3bfd-4301-97b9-acc1c7f32809"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " list supported SkyView surveys"
+}], "GuideText",
+ CellID->1050276115,ExpressionUUID->"5ffe1982-d35d-4678-8ac0-77246378de96"]
+}, Open  ]],
+
+Cell[" ", "FooterCell",ExpressionUUID->"31781483-e911-45b3-bc73-99733674fd3f"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900, 830},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Astronomy",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
+  "NewStyles" -> True, "CitationPopupData" -> {$Failed, ""}, "ShowCitation" -> 
+  False, "RootCaptions" -> "", "HeaderCoreAreaLink" -> {}, 
+  "Metadata" -> {
+   "built" -> "{2024, 1, 23, 10, 20, 40.961707}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "WolframExternalFunctions`Astronomy`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Wolfram External Functions/ Astronomy Guide", "language" -> 
+    "en", "paclet" -> "WolframExternalFunctions/Astronomy", "status" -> 
+    "None", "summary" -> "Wolfram Language functions for Astronomy", 
+    "synonyms" -> {}, "tabletags" -> {}, "title" -> "Astronomy", 
+    "titlemodifier" -> "", "metadescription" -> "", "windowtitle" -> 
+    "Astronomy", "type" -> "Guide", "uri" -> 
+    "WolframExternalFunctions/Astronomy/guide/Astronomy"}},
+CacheGraphics->False,
+FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (January 18, 2024)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"bac1cc2c-3a2f-49f1-8900-44e931d9068a"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[577, 21, 4694, 114, 54, "AnchorBarGrid",ExpressionUUID->"ed97757f-1307-4081-9332-6252523b7d9b",
+ CellID->1],
+Cell[CellGroupData[{
+Cell[5296, 139, 107, 1, 60, "GuideTitle",ExpressionUUID->"264e30e3-3911-4826-bddd-ac24f22cdbea",
+ CellID->1096680877],
+Cell[5406, 142, 139, 1, 37, "GuideAbstract",ExpressionUUID->"cbb7f62a-3b34-40f8-b929-820661fffabd",
+ CellID->63357538],
+Cell[5548, 145, 93, 0, 21, "GuideDelimiterSubsection",ExpressionUUID->"96f39e0a-b217-4e94-bfcf-d0999cba7bc7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5678, 150, 127, 1, 58, "GuideFunctionsSection",ExpressionUUID->"463b9034-f352-4048-a57a-c8d39147eaf5",
+ CellID->1845735901],
+Cell[5808, 153, 545, 15, 25, "GuideText",ExpressionUUID->"430af381-4622-4dd2-b8cb-6c4f77779d3e",
+ CellID->47466336],
+Cell[6356, 170, 572, 15, 25, "GuideText",ExpressionUUID->"5ffe1982-d35d-4678-8ac0-77246378de96",
+ CellID->1050276115]
+}, Open  ]],
+Cell[6943, 188, 78, 0, 40, "FooterCell",ExpressionUUID->"31781483-e911-45b3-bc73-99733674fd3f"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

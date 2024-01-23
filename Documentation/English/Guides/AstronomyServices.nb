@@ -1,0 +1,281 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[     10122,        273]
+NotebookOptionsPosition[      6624,        196]
+NotebookOutlinePosition[      7165,        214]
+CellTagsIndexPosition[      7122,        211]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Astronomy Services", "GuideTitle",
+ CellChangeTimes->{3.915015437483515*^9},
+ CellID->1104905714,ExpressionUUID->"00074333-2972-41b5-8524-8db44cbeda93"],
+
+Cell["Third party astronomy data services", "GuideAbstract",
+ CellChangeTimes->{{3.915015441716833*^9, 3.9150154543698263`*^9}},
+ CellID->859239589,ExpressionUUID->"ceba54d6-ea1f-4703-b6e6-0597b346d0c5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "GuideFunctionsSection",
+ CellID->1559729895,ExpressionUUID->"7710d006-54e3-4c0f-9846-eb1d93d902fa"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["SkyView",
+   BaseStyle->"Link",
+   ButtonData->"paclet:WolframExternalFunctions/Astronomy/ref/SkyView"]], 
+  "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"c40ac8e4-27e1-4161-a8df-4d4f38357a23",ExpressionUUID->
+  "855e1b69-60a4-491f-aa28-211df7d98020"],
+ " \[LongDash] get a SkyView image"
+}], "GuideText",
+ CellChangeTimes->{{3.91501545656695*^9, 3.91501551156105*^9}},
+ CellID->47466336,ExpressionUUID->"4c84bcd4-4c42-4508-b574-3e6672718069"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  ButtonBox["SkyViewSurveys",
+   BaseStyle->"Link",
+   ButtonData->
+    "paclet:WolframExternalFunctions/Astronomy/ref/SkyViewSurveys"]], 
+  "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"c5c6736a-1ff4-4e4e-8fcf-2d9846cbae62",ExpressionUUID->
+  "fca57526-2024-47dc-b61d-46444ca97f7c"],
+ " \[LongDash] list supported SkyView surveys"
+}], "GuideText",
+ CellChangeTimes->{{3.9150154598402157`*^9, 3.915015522950391*^9}},
+ CellID->1050276115,ExpressionUUID->"8331c755-5565-47dc-9f2c-20b03a14a990"],
+
+Cell[CellGroupData[{
+
+Cell["\t", "GuideDelimiter",
+ CellID->1822570112,ExpressionUUID->"748ce007-7950-4dc7-99ce-6e60e146a858"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TagBox[
+   FrameBox["\<\"XXXX\"\>"],
+   "FunctionPlaceholder"]], "InlineGuideFunction",
+  TaggingRules->{"PageType" -> "Function"},ExpressionUUID->
+  "7d394368-0c95-4ab3-8d85-8ca34a2ad9b2"],
+ Cell[BoxData[
+  RowBox[{
+  Cell[TextData[StyleBox[
+   " \[FilledVerySmallSquare] ", "InlineSeparator"]],ExpressionUUID->
+    "6455a4be-8a57-4b24-bcae-882d2d59f7dc"], 
+   DynamicModuleBox[{$CellContext`nbobj$$ = NotebookObject[
+    "0758c0e5-991c-42d2-9bce-fe9b4972103f", 
+     "24770ef3-fdce-4777-aa01-1acc0e8c17c5"], $CellContext`cellobj$$ = 
+    CellObject[
+    "99e34d5e-44b2-45bd-9860-c42ee932190e", 
+     "7d9351f3-faab-48fc-9eb6-231de78c08f4"]}, 
+    TemplateBox[{
+      GraphicsBox[{{
+         Thickness[0.06], 
+         StrokeForm[
+          Hue[0.4167, 0.406, 0.502]], 
+         CircleBox[{0, 0}]}, {
+         Thickness[0.06], 
+         StrokeForm[
+          Hue[0.4167, 0.406, 0.502]], 
+         LineBox[{{0, 0.62}, {0, -0.62}}]}, {
+         Thickness[0.06], 
+         StrokeForm[
+          Hue[0.4167, 0.406, 0.502]], 
+         LineBox[{{-0.62, 0}, {0.62, 0}}]}}, 
+       ImagePadding -> {{1., 1.}, {2.4, 1.}}, ImageSize -> 16, 
+       PlotRange -> {{-1.06, 1.06}, {-1.06, 1.06}}, 
+       BaselinePosition -> (Center -> 
+        Center)], $CellContext`nbobj$$, $CellContext`cellobj$$},
+     "InlineListingAddButton"],
+    Initialization:>($CellContext`nbobj$$ = 
+      EvaluationNotebook[]; $CellContext`cellobj$$ = EvaluationCell[])]}]], 
+  "InlineListingAddButton",ExpressionUUID->
+  "99e34d5e-44b2-45bd-9860-c42ee932190e"]
+}], "InlineGuideFunctionListing",
+ CellID->229131576,ExpressionUUID->"842e1d16-4844-49f5-918d-9e0a22b7a667"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Tech Notes", "GuideTutorialsSection",
+ CellID->576218761,ExpressionUUID->"140079ef-2756-474b-a6f3-ad49a735b055"],
+
+Cell["XXXX", "GuideTutorial",
+ CellID->1504951804,ExpressionUUID->"43b6fe01-763c-42c6-bc42-7ba7feb19c6b"],
+
+Cell["XXXX", "GuideTutorial",
+ CellID->662575462,ExpressionUUID->"3832e845-c259-4fc4-aed1-d12a8a5d63b1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Related Guides", "GuideMoreAboutSection",
+ CellChangeTimes->{{3.8430423939366693`*^9, 3.843042395176153*^9}},
+ CellID->1203080139,ExpressionUUID->"1d56f15d-6fa0-49bd-b07c-02a7b5ae21cd"],
+
+Cell["XXXX", "GuideMoreAbout",
+ CellID->1609359668,ExpressionUUID->"446afb48-f604-4af0-b2af-4616a09de355"],
+
+Cell["XXXX", "GuideMoreAbout",
+ CellID->951406111,ExpressionUUID->"60c157d9-a4ea-4bf4-b911-1f1a79a7ccf7"]
+}, Open  ]],
+
+Cell["Related Links", "GuideRelatedLinksSection",
+ CellID->119272015,ExpressionUUID->"5a82d781-9cde-492f-85fe-e0d709f06b0d"],
+
+Cell[CellGroupData[{
+
+Cell["Metadata", "MetadataSection",
+ CellID->1002513454,ExpressionUUID->"161c3d6b-715a-4ee7-9898-4a5498528292"],
+
+Cell[TextData[{
+ "New in: ",
+ Cell["XX", "HistoryData",
+  CellTags->"New",ExpressionUUID->"0115f6a3-47f8-4542-9f35-9592c0deb71b"],
+ " | Modified in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Modified",ExpressionUUID->"ca291e48-fed9-4ca8-890d-3e3de5dff890"],
+ " | Obsolete in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Obsolete",ExpressionUUID->
+  "0322bc73-b17a-4e7f-8a52-909ae2553d47"]
+}], "History",
+ CellID->86927016,ExpressionUUID->"216ab22a-41fd-4043-96ca-0b648c991e3b"],
+
+Cell[CellGroupData[{
+
+Cell["Categorization", "CategorizationSection",
+ CellID->693477952,ExpressionUUID->"6b33f5ab-78d6-4766-b61a-75dfef00045e"],
+
+Cell["Guide", "Categorization",
+ CellLabel->"Entity Type",
+ CellID->890186995,ExpressionUUID->"86d15f3f-a94a-456b-8365-a120c8bde4d9"],
+
+Cell["WolframExternalFunctions/Astronomy", "Categorization",
+ CellLabel->"Paclet Name",
+ CellID->2001739963,ExpressionUUID->"4c72ad13-79b3-46aa-9099-8806c1c4917e"],
+
+Cell["WolframExternalFunctions`Astronomy`", "Categorization",
+ CellLabel->"Context",
+ CellID->764744239,ExpressionUUID->"36ac2f32-2334-41d7-9c6b-03e340730cd0"],
+
+Cell["WolframExternalFunctions/Astronomy/guide/AstronomyServices", \
+"Categorization",
+ CellLabel->"URI",
+ CellID->366797578,ExpressionUUID->"5d885148-2204-4183-95cf-f5d9632a412b"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Keywords", "KeywordsSection",
+ CellID->1488826556,ExpressionUUID->"137c5934-fa31-44c0-9196-8a4f83db4867"],
+
+Cell["XXXX", "Keywords",
+ CellID->228471848,ExpressionUUID->"b83f44ca-c193-458f-8a0a-acf4eb94db14"]
+}, Closed]]
+}, Open  ]]
+},
+WindowSize->{825, 770},
+WindowMargins->{{Automatic, 299}, {27, Automatic}},
+TaggingRules-><|"Paclet" -> "WolframExternalFunctions/Astronomy"|>,
+FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (January 18, 2024)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "GuidePageStylesExt.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"0758c0e5-991c-42d2-9bce-fe9b4972103f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 158, 2, 86, "GuideTitle",ExpressionUUID->"00074333-2972-41b5-8524-8db44cbeda93",
+ CellID->1104905714],
+Cell[737, 26, 203, 2, 28, "GuideAbstract",ExpressionUUID->"ceba54d6-ea1f-4703-b6e6-0597b346d0c5",
+ CellID->859239589]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[977, 33, 109, 1, 71, "GuideFunctionsSection",ExpressionUUID->"7710d006-54e3-4c0f-9846-eb1d93d902fa",
+ CellID->1559729895],
+Cell[1089, 36, 521, 12, 24, "GuideText",ExpressionUUID->"4c84bcd4-4c42-4508-b574-3e6672718069",
+ CellID->47466336],
+Cell[1613, 50, 557, 13, 24, "GuideText",ExpressionUUID->"8331c755-5565-47dc-9f2c-20b03a14a990",
+ CellID->1050276115],
+Cell[CellGroupData[{
+Cell[2195, 67, 104, 1, 26, "GuideDelimiter",ExpressionUUID->"748ce007-7950-4dc7-99ce-6e60e146a858",
+ CellID->1822570112],
+Cell[2302, 70, 1670, 42, 27, "InlineGuideFunctionListing",ExpressionUUID->"842e1d16-4844-49f5-918d-9e0a22b7a667",
+ CellID->229131576]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4021, 118, 118, 1, 73, "GuideTutorialsSection",ExpressionUUID->"140079ef-2756-474b-a6f3-ad49a735b055",
+ CellID->576218761],
+Cell[4142, 121, 105, 1, 23, "GuideTutorial",ExpressionUUID->"43b6fe01-763c-42c6-bc42-7ba7feb19c6b",
+ CellID->1504951804],
+Cell[4250, 124, 104, 1, 23, "GuideTutorial",ExpressionUUID->"3832e845-c259-4fc4-aed1-d12a8a5d63b1",
+ CellID->662575462]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4391, 130, 191, 2, 73, "GuideMoreAboutSection",ExpressionUUID->"1d56f15d-6fa0-49bd-b07c-02a7b5ae21cd",
+ CellID->1203080139],
+Cell[4585, 134, 106, 1, 23, "GuideMoreAbout",ExpressionUUID->"446afb48-f604-4af0-b2af-4616a09de355",
+ CellID->1609359668],
+Cell[4694, 137, 105, 1, 23, "GuideMoreAbout",ExpressionUUID->"60c157d9-a4ea-4bf4-b911-1f1a79a7ccf7",
+ CellID->951406111]
+}, Open  ]],
+Cell[4814, 141, 124, 1, 73, "GuideRelatedLinksSection",ExpressionUUID->"5a82d781-9cde-492f-85fe-e0d709f06b0d",
+ CellID->119272015],
+Cell[CellGroupData[{
+Cell[4963, 146, 111, 1, 71, "MetadataSection",ExpressionUUID->"161c3d6b-715a-4ee7-9898-4a5498528292",
+ CellID->1002513454],
+Cell[5077, 149, 475, 12, 25, "History",ExpressionUUID->"216ab22a-41fd-4043-96ca-0b648c991e3b",
+ CellID->86927016],
+Cell[CellGroupData[{
+Cell[5577, 165, 122, 1, 20, "CategorizationSection",ExpressionUUID->"6b33f5ab-78d6-4766-b61a-75dfef00045e",
+ CellID->693477952],
+Cell[5702, 168, 133, 2, 70, "Categorization",ExpressionUUID->"86d15f3f-a94a-456b-8365-a120c8bde4d9",
+ CellID->890186995],
+Cell[5838, 172, 163, 2, 70, "Categorization",ExpressionUUID->"4c72ad13-79b3-46aa-9099-8806c1c4917e",
+ CellID->2001739963],
+Cell[6004, 176, 159, 2, 70, "Categorization",ExpressionUUID->"36ac2f32-2334-41d7-9c6b-03e340730cd0",
+ CellID->764744239],
+Cell[6166, 180, 180, 3, 70, "Categorization",ExpressionUUID->"5d885148-2204-4183-95cf-f5d9632a412b",
+ CellID->366797578]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[6383, 188, 111, 1, 20, "KeywordsSection",ExpressionUUID->"137c5934-fa31-44c0-9196-8a4f83db4867",
+ CellID->1488826556],
+Cell[6497, 191, 99, 1, 70, "Keywords",ExpressionUUID->"b83f44ca-c193-458f-8a0a-acf4eb94db14",
+ CellID->228471848]
+}, Closed]]
+}, Open  ]]
+}
+]
+*)
+

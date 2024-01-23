@@ -76,5 +76,10 @@ def xxx(position,survey):
     If[Head[result]===NumericArray,Image[Rescale[Normal[result]]],result]
 ]
 
+
+(* ::Section::Closed:: *)
+(*Package Footer*)
+
+
 End[];
 EndPackage[];
